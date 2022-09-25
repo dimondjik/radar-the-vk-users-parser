@@ -1,0 +1,15 @@
+init_raw_db - initialize raw database
+fetch_target_groups - fetch groups from which we will be getting users
+fetch_users_from_targets - fetch users from groups
+init_sorted_db - initialize db for sorting
+sorter - sort
+init_filtered_db - initialize db for filtering
+filter - filter users (you may want to look into this script yourself)
+init_add_data - init db for adding data to filtered users
+fill_add_data_from_filtered - reformat data to next db
+fetch_additional_data - fetch additional data (videos, audio, groups)
+init_precise_db - init db for precise filtering (by group matches)
+precise_filter - filter the add data db
+init_display_db - init display db
+fill_display_from_precise - fill display dp from precise filtered
+display - MAIN POINT OF THIS, LOOK AT WHAT YOU FOUND
